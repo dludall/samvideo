@@ -1,0 +1,7 @@
+{
+  "name": "samvideo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
