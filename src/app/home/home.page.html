@@ -14,7 +14,18 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    
+    <video 
+
+    #ditVideo
+    src="./assets/cosmos.mp4"  
+    autoplay="true"
+    loop="loop"></video>
+  </div>
+  <div>
+    <ion-button (click)="onClickStart()">start</ion-button>
+    <ion-button (click)="onClickStop()">stop</ion-button>
+    <ion-button (click)="onOpenNative()">Native {{openResult}}</ion-button>
+
   </div>
 </ion-content>
